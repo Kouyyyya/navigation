@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".main").mouseleave(function(){
+				$("#hide").hide();
+			});
+			$(".main").mouseenter(function(){
+				$("#hide").show();
+			});
+		});
+	</script>
+	<style type="text/css">
+		*{
+			margin:0px;
+			padding: 0px;
+		}
+		#nav{
+			background-color: #C81623;
+			float: left;
+			width: 200px;
+		}
+
+		.main{
+			height: 31px;
+			padding: 5px 10px;
+		}
+
+		.main a{
+			text-decoration: none; 
+			color: white;
+			font-family: '微软雅黑';
+			font-size: 14px;
+
+		}
+
+		.main:hover a{
+			color:#B61D1D;
+		}
+
+		.main:hover{
+			background-color: white;
+			border:1px solid #C81623;
+		}
+
+		span{
+			float: right;
+			color: white;
+			font-weight: 900;
+		}
+
+		#hide{
+			width:1000px;
+			height:465px;
+			float: left;
+			padding: 10px;
+			border:1px solid #C81623;
+		}
+
+		#container{
+			margin-top: 100px;
+			margin-left: 50px;
+		}
+		#text{
+			float: left;
+			width: 750px;
+		}
+		dl{
+			width:790px;
+			height:60px;
+			margin:10px; 
+		}
+		dt{
+			width:84px;
+			height:32px;
+			float: left;
+			font-family: '微软雅黑';
+			color: #666666;
+			font-size: 14px;
+			margin:5px; 
+			text-align: right;
+		}
+		dt a{
+			text-decoration: none;
+			font-family: '微软雅黑';
+			color: #666666;
+			font-size: 14px;
+		}
+		dd{
+			width:600px;
+			height:60px;
+			float: left;
+			border-bottom: 1px solid #E0E0E0;
+
+		}
+		dd a{
+			color: #666666;
+			border-left: 1px solid #E0E0E0;
+			text-decoration: none; 
+			font-family: '微软雅黑';
+			font-size: 14px;
+			margin:0px 10px 0px 5px;
+			padding:5px; 
+			height: 14px;
+			line-height: 14px;
+			display: block;
+			float:left;
+			text-align: center;
+		}
+		dl a:hover{
+			color: red;
+		}
+
+		.pica{
+			width:185px;
+			height:160px;
+			margin:5px 0px; 
+		}
+		.pica img{
+			margin: 2px;
+			float: left;
+		}
+		#pic{
+			width:185px;
+			height: 475px;
+			float: right;
+		}
+		.picb{
+			width:185px;
+			height:140px;
+			margin: 2px;
+		}
+
+
+	
+		
+
+	</style>
+	
+
+
+</head>
+<body>
+	<div id="container">
+		<div id="nav">
+			<div class="main aa"><a href="#">家用电器</a><span>></span></div>
+			<div class="main bb"><a href="#">手机、</a><a href="#">数码、</a><a href="#">京东通信</a><span>></span></div>
+			<div class="main cc"><a href="#">电脑、</a><a href="#">办公</a><span>></span></div>
+			<div class="main dd"><a href="#">家居、</a><a href="#">家具、</a><a href="#">家装、</a><a href="#">厨具</a><span>></span></div>
+			<div class="main ee"><a href="#">男装、</a><a href="#">女装、</a><a href="#">内衣、</a><a href="#">珠宝</a><span>></span></div>
+			<div class="main ff"><a href="#">家用电器</a><span>></span></div>
+			<div class="main gg"><a href="#">家用电器</a><span>></span></div>
+			<div class="main hh"><a href="#">家用电器</a><span>></span></div>
+			<div class="main ii"><a href="#">家用电器</a><span>></span></div>
+			<div class="main jj"><a href="#">家用电器</a><span>></span></div>
+			<div class="main kk"><a href="#">家用电器</a><span>></span></div>
+			<div class="main ll"><a href="#">家用电器</a><span>></span></div>
+			<div class="main mm"><a href="#">家用电器</a><span>></span></div>
+
+		
+		</div>
+		<div id="hide">
+			<div id="text">
+				<div class="top"></div>
+				<dl>
+					<dt><a href="#"><h4>大家电&nbsp;&nbsp;></h4></a></dt>
+					<dd>
+						<a href="#">平板</a>
+						<a href="#">电视</a>
+						<a href="#">空调</a>
+						<a href="#">冰箱</a>
+						<a href="#">洗衣机</a>
+						<a href="#">家庭影院</a>
+						<a href="#">DVD</a>
+						<a href="#">迷你音响</a>
+						<a href="#">烟机/灶具</a>
+						<a href="#">热水器</a>
+						<a href="#">消毒柜/洗碗机</a>
+						<a href="#">冷柜/冰吧</a>
+						<a href="#">酒柜</a>
+						<a href="#">家电配件</a>
+
+					</dd>
+				</dl>
+				<dl>
+					<dt><a href="#"><h4>大家电&nbsp;&nbsp;></h4></a></dt>
+					<dd>
+						<a href="#">平板</a>
+						<a href="#">电视</a>
+						<a href="#">空调</a>
+						<a href="#">冰箱</a>
+						<a href="#">洗衣机</a>
+						<a href="#">家庭影院</a>
+						<a href="#">DVD</a>
+						<a href="#">迷你音响</a>
+						<a href="#">烟机/灶具</a>
+						<a href="#">热水器</a>
+						<a href="#">消毒柜/洗碗机</a>
+						<a href="#">冷柜/冰吧</a>
+						<a href="#">酒柜</a>
+						<a href="#">家电配件</a>
+
+					</dd>
+				</dl>
+				<dl>
+					<dt><a href="#"><h4>大家电&nbsp;&nbsp;></h4></a></dt>
+					<dd>
+						<a href="#">平板</a>
+						<a href="#">电视</a>
+						<a href="#">空调</a>
+						<a href="#">冰箱</a>
+						<a href="#">洗衣机</a>
+						<a href="#">家庭影院</a>
+						<a href="#">DVD</a>
+						<a href="#">迷你音响</a>
+						<a href="#">烟机/灶具</a>
+						<a href="#">热水器</a>
+						<a href="#">消毒柜/洗碗机</a>
+						<a href="#">冷柜/冰吧</a>
+						<a href="#">酒柜</a>
+						<a href="#">家电配件</a>
+
+					</dd>
+				</dl>
+				<dl>
+					<dt><a href="#"><h4>大家电&nbsp;&nbsp;></h4></a></dt>
+					<dd>
+						<a href="#">平板</a>
+						<a href="#">电视</a>
+						<a href="#">空调</a>
+						<a href="#">冰箱</a>
+						<a href="#">洗衣机</a>
+						<a href="#">家庭影院</a>
+						<a href="#">DVD</a>
+						<a href="#">迷你音响</a>
+						<a href="#">烟机/灶具</a>
+						<a href="#">热水器</a>
+						<a href="#">消毒柜/洗碗机</a>
+						<a href="#">冷柜/冰吧</a>
+						<a href="#">酒柜</a>
+						<a href="#">家电配件</a>
+
+					</dd>
+				</dl>
+				<dl>
+					<dt><a href="#"><h4>大家电&nbsp;&nbsp;></h4></a></dt>
+					<dd>
+						<a href="#">平板</a>
+						<a href="#">电视</a>
+						<a href="#">空调</a>
+						<a href="#">冰箱</a>
+						<a href="#">洗衣机</a>
+						<a href="#">家庭影院</a>
+						<a href="#">DVD</a>
+						<a href="#">迷你音响</a>
+						<a href="#">烟机/灶具</a>
+						<a href="#">热水器</a>
+						<a href="#">消毒柜/洗碗机</a>
+						<a href="#">冷柜/冰吧</a>
+						<a href="#">酒柜</a>
+						<a href="#">家电配件</a>
+
+					</dd>
+				</dl>
+				<dl>
+					<dt><a href="#"><h4>大家电&nbsp;&nbsp;></h4></a></dt>
+					<dd>
+						<a href="#">平板</a>
+						<a href="#">电视</a>
+						<a href="#">空调</a>
+						<a href="#">冰箱</a>
+						<a href="#">洗衣机</a>
+						<a href="#">家庭影院</a>
+						<a href="#">DVD</a>
+						<a href="#">迷你音响</a>
+						<a href="#">烟机/灶具</a>
+						<a href="#">热水器</a>
+						<a href="#">消毒柜/洗碗机</a>
+						<a href="#">冷柜/冰吧</a>
+						<a href="#">酒柜</a>
+						<a href="#">家电配件</a>
+
+					</dd>
+				</dl>
+				
+			</div>
+			<div id="pic">
+				<div class="pica">
+					<img src="1.jpg"><img src="1.jpg"><img src="1.jpg"><img src="1.jpg">
+					<img src="1.jpg"><img src="1.jpg"><img src="1.jpg"><img src="1.jpg">
+				</div>
+				<div class="picb">
+					<img src="2.jpg">
+				</div>
+				<div class="picb">
+					<img src="2.jpg">
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+	
+
+</body>
+</html>
